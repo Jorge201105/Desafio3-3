@@ -25,5 +25,8 @@ recordatorios.insert(6,cena_año_nuevo)
 
 
 
-# Output, imprime a lo largo, pero coincidiendo con la respuesta
-print(recordatorios)
+# Output, imprime a lo largo, pero coincidiendo con la respuesta (se deja como comentario, ya que, se determino hacer un for para presentar respuesta)
+## print(recordatorios)
+# con este for se deja el listado de elementos dispuesto hacia abajo como esta en la respuesta del apunte
+for elemento in recordatorios:
+    print(elemento)
