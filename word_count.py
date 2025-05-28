@@ -11,10 +11,10 @@ numero_caracteres=len(set(texto))
 
 palabras = texto.split(" ")
 
-#Se chequea el numero de palabras encontradas con print pero despues se deja como comentario
+#Se chequea el número de palabras encontradas con print pero despues se deja como comentario
 # print(palabras)
 numero_palbras = len(set(palabras))
 #print(numero_palbras)
 
-print(f"El úmero de carcateres distintos es : {numero_caracteres}")
-print(f"El numero de palabras distintas es : {numero_palbras}")
+print(f"El número de carcateres distintos son : {numero_caracteres}")
+print(f"El número de palabras distintas es : {numero_palbras}")
